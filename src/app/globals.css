@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'IranSans';
+  src: url('../assets/fonts/IRANSansMedium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'IranSansLight';
+  src: url('../assets/fonts/IRANSansLight.woff2') format('woff2');
+}
+
+
+html {
+  background-color: '#000';
+}
+
+body {
+  font-family: 'IranSans', sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
